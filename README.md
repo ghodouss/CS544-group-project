@@ -10,6 +10,9 @@ This repo sets up a SpaCy experiment that each team member ran using their own c
 ![image](project/spacy_trials/ModelImages/entsvp.png)
 ![image](project/spacy_trials/ModelImages/size_vs_performance.png)
 
+# Instructions to Train
+https://spacy.io/usage/training
+
 # Example config
 
 
