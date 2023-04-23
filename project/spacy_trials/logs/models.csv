@@ -1,0 +1,11 @@
+model,trainable_params
+roberta1,7678464
+roberta3,21854208
+roberta5,43117824
+roberta10,71469312
+roberta12,85645056
+bert1,7678464
+bert3,21854208
+bert5,50205696
+bert10,64381440
+bertfull,85645056

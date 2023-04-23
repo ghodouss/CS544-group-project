@@ -1,0 +1,11 @@
+ModelName,TotalParameters
+multihash,10000
+bert_base_NER,340000000
+bert_base_uncased,340000000
+bert_mini,11201594
+bert_small,28795194
+bert_tiny,4416698
+clinical_bert,108340804
+roberta,125000000
+scibert,340000000
+pubmed_bert,340000000
