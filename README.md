@@ -11,6 +11,12 @@ For non GPU installation
 For GPU installation (requires CUDA 11.0+):
 `pip install -U spacy[cuda-autodetect] spacy-transformers`
 
+Corpus download is also required:
+```
+python -m spacy download en_core_web_trf
+python -m spacy download en_core_web_lg
+```
+
 # Run Training Script
 `spacy train multihash.cfg --output <OUTPUT_DIR>`
 Swap mulithash.cfg for any other config (others will be much slower to train and require a GPU). More detailed instructions here: https://spacy.io/usage/training
