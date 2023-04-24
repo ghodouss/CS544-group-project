@@ -3,15 +3,28 @@ CS 544 Group Project
 
 This repo sets up a SpaCy experiment that each team member ran using their own configuration on their laptop.
 
+# Installation
+
+For non GPU installation
+`pip install spacy spacy-transformers`
+
+For GPU installation (requires CUDA 11.0+):
+`pip install -U spacy[cuda-autodetect] spacy-transformers`
+
+# Run Training Script
+`spacy train multihash.cfg --output <OUTPUT_DIR>`
+Swap mulithash.cfg for any other config (others will be much slower to train and require a GPU). More detailed instructions here: https://spacy.io/usage/training
+
+
+# Run evaluation
+`spacy benchmark accuracy <OUTPUT_DIR>/model-best   data/test_med.spacy`
+
 # Experimental Results
 
 ![image](project/spacy_trials/ModelImages/Freeze.png)
 ![image](project/spacy_trials/ModelImages/entperf.png)
 ![image](project/spacy_trials/ModelImages/entsvp.png)
 ![image](project/spacy_trials/ModelImages/size_vs_performance.png)
-
-# Instructions to Train
-https://spacy.io/usage/training
 
 # Example config
 
